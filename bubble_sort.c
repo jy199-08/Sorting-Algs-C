@@ -5,7 +5,7 @@ void bubble_sort(int array[], int length);
 int main(void)
 {
     int numbers[] = {3, 4, 7, 5, 6, 1, 8, 9, 2};
-    int length = sizeof(numbers) / sizeof(numbers[0]);  // works here: numbers is a real array
+    int length = sizeof(numbers) / sizeof(numbers[0]);
 
     bubble_sort(numbers, length);
 
